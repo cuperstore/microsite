@@ -12,6 +12,17 @@ body {
     background-image: linear-gradient(to bottom, #aefaa7, #e1f7df);
 }
 
+.btn-website {
+    background-image: linear-gradient(to right, #0af50a, #a2f3bd);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out; /* Tambahkan transisi */
+}
+
+.btn-website:hover {
+    background-image: linear-gradient(to left, #93e9f8, #1f86fc); /* Ubah arah gradien */
+}
+
 .btn-instagram {
     background-image: linear-gradient(to right, #f093fb, #f558ba);
     color: white;
